@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 type Props = {};
@@ -13,11 +14,11 @@ const JoinSection = (props: Props) => {
           Get exclusive access to new releases.
         </p>
         <div className="flex flex-1 gap-4">
-          <Button variant={'default'} className="w-1/2 py-6">
-            Sign up
+          <Button variant={'default'} className="w-1/2 py-6" asChild>
+            <Link href={'/register'}>Sign up</Link>
           </Button>
-          <Button variant={'outline'} className="w-1/2 py-6">
-            Shop More
+          <Button variant={'outline'} className="w-1/2 py-6" asChild>
+            <Link href={'/product'}>Shop More</Link>
           </Button>
         </div>
       </article>
