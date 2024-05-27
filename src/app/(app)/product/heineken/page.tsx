@@ -19,7 +19,7 @@ export default async function ProductDetailPage() {
               alt="Product Image"
               className="aspect-square object-contain border border-gray-200 w-full rounded-lg overflow-hidden dark:border-gray-800"
               height={600}
-              src="/assets/heineken.png"
+              src="/brewery_website/assets/heineken.png"
               width={600}
             />
           </div>

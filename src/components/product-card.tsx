@@ -12,7 +12,7 @@ const ProductCard = () => {
       >
         <Image
           className="object-contain max-w-[200px]"
-          src="/assets/heineken.png"
+          src="/brewery_website/assets/heineken.png"
           width={200}
           height={221}
           alt="beer Image"

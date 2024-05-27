@@ -10,7 +10,12 @@ export default function SiteFooter() {
       <div className="px-10 mb-16">
         <div className="mb-4">
           {' '}
-          <Image src="/assets/logo.png" alt="" width={200} height={47} />
+          <Image
+            src="/brewery_website/assets/logo.png"
+            alt=""
+            width={200}
+            height={47}
+          />
         </div>
         <div className="flex flex-wrap gap-4">
           {docsConfig.footerNav.top?.map((e, i) => {

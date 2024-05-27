@@ -11,7 +11,7 @@ const HeroSection = (props: Props) => {
         <Image
           height={484}
           width={1200}
-          src={'/assets/hero_image.png'}
+          src={'/brewery_website/assets/hero_image.png'}
           alt="hero image"
           className="w-full h-full object-cover object-[top_-142px_left_0px] absolute mix-blend-overlay"
         />

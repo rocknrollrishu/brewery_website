@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   description: 'the beer shop',
 
   icons: {
-    icon: '/assets/favicon-32x32.png',
-    shortcut: '/assets/favicon-16x16.png',
-    apple: '/assets/apple-touch-icon.png',
+    icon: '/brewery_website/assets/favicon-32x32.png',
+    shortcut: '/brewery_website/assets/favicon-16x16.png',
+    apple: '/brewery_website/assets/apple-touch-icon.png',
     other: {
       rel: 'apple-touch-icon',
-      url: '/assets/favicon-16x16.png',
+      url: '/brewery_website/assets/favicon-16x16.png',
     },
   },
 };
