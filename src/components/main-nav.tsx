@@ -18,10 +18,12 @@ export function MainNav() {
           href="/product"
           className={cn(
             'transition-colors hover:text-foreground/80 text-lg ',
-            pathname === '/about' ? 'text-foreground' : 'text-foreground/60'
+            pathname?.startsWith('/product')
+              ? 'text-foreground'
+              : 'text-foreground/60'
           )}
         >
-          Product
+          Shop
         </Link>
         <Link
           href="#"

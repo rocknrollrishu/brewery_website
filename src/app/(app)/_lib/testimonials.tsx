@@ -8,8 +8,8 @@ export default function Testimonials() {
       <div className="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-6">
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 dark:bg-gray-950 dark:border-gray-800">
           <blockquote className="text-lg font-semibold leading-snug">
-            “The customer service I received was exceptional. The support team
-            went above and beyond to address my concerns.”
+            “The online ordering process was exceptional. The website made
+            everything seamless and addressed my concerns.”
           </blockquote>
           <div className="mt-4 flex items-center space-x-3">
             <div className="flex-shrink-0">
@@ -35,8 +35,8 @@ export default function Testimonials() {
         </div>
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 dark:bg-gray-950 dark:border-gray-800">
           <blockquote className="text-lg font-semibold leading-snug">
-            “I was hesitant at first, but the onboarding process was seamless.
-            The platform has been a game-changer for my business.”
+            “I was impressed with the online order experience. The website
+            ensured a seamless process and addressed my concerns.”
           </blockquote>
           <div className="mt-4 flex items-center space-x-3">
             <div className="flex-shrink-0">
@@ -62,9 +62,8 @@ export default function Testimonials() {
         </div>
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 dark:bg-gray-950 dark:border-gray-800">
           <blockquote className="text-lg font-semibold leading-snug">
-            “The platform has streamlined our workflow and enabled us to focus
-            on what really matters - delivering exceptional products to our
-            customers.”
+            “The brewery&apos;s customer service was outstanding. The support
+            team went above and beyond to assist me with my concerns.”
           </blockquote>
           <div className="mt-4 flex items-center space-x-3">
             <div className="flex-shrink-0">
@@ -83,7 +82,7 @@ export default function Testimonials() {
             <div>
               <div className="font-medium">Vincent Vega</div>
               <div className="text-sm text-gray-500 dark:text-gray-400">
-                CTO, Acme Inc
+                Daily Buyer
               </div>
             </div>
           </div>

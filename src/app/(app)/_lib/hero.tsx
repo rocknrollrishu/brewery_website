@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 type Props = {};
@@ -24,8 +25,8 @@ const HeroSection = (props: Props) => {
           Freshly brewed just for you.
         </p>
         <div className="flex flex-1 gap-4">
-          <Button variant={'default'} className="w-full max-w-80 py-6 ">
-            Order Now
+          <Button variant={'default'} className="w-full max-w-80 py-6 " asChild>
+            <Link href={'/product'}>Order Now</Link>
           </Button>
         </div>
       </div>
