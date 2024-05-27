@@ -23,7 +23,7 @@ const JoinSection = (props: Props) => {
       </article>
       <div className="col-span-12 md:order-2 order-1 md:col-span-6">
         <Image
-          src={'/assets/laughing_lummi.png'}
+          src={'/brewery_website/assets/laughing_lummi.png'}
           width={576}
           height={412}
           alt="join image"

@@ -20,7 +20,12 @@ export function SiteHeader() {
       <div className="container flex flex-col h-28 max-w-screen-2xl items-center w-full">
         <div className="mr-4 flex w-full items-center pt-4">
           <Link href="/" className="flex items-center space-x-2 mr-auto">
-            <Image src="/assets/logo.png" alt="asdf" width={150} height={50} />
+            <Image
+              src="/brewery_website/assets/logo.png"
+              alt="asdf"
+              width={150}
+              height={50}
+            />
           </Link>
           <div className="mx-auto">
             <SearchBar />

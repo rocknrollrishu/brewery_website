@@ -17,7 +17,7 @@ export default function Testimonials() {
                 alt="Avatar"
                 className="rounded-full"
                 height={48}
-                src="/assets/user.png"
+                src="/brewery_website/assets/user.png"
                 style={{
                   aspectRatio: '48/48',
                   objectFit: 'cover',
@@ -44,7 +44,7 @@ export default function Testimonials() {
                 alt="Avatar"
                 className="rounded-full"
                 height={48}
-                src="/assets/user.png"
+                src="/brewery_website/assets/user.png"
                 style={{
                   aspectRatio: '48/48',
                   objectFit: 'cover',
@@ -72,7 +72,7 @@ export default function Testimonials() {
                 alt="Avatar"
                 className="rounded-full"
                 height={48}
-                src="/assets/user.png"
+                src="/brewery_website/assets/user.png"
                 style={{
                   aspectRatio: '48/48',
                   objectFit: 'cover',
