@@ -31,7 +31,7 @@ const CategoriesSection = (props: Props) => {
         >
           <CarouselContent>
             {docsConfig.categories?.map((e) => {
-              const url = `/assets${e?.image}`;
+              const url = `/brewery_website/assets${e?.image}`;
 
               return (
                 <CarouselItem
