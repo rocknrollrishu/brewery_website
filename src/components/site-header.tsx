@@ -16,7 +16,7 @@ import SearchBar from './SearchBar';
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-40 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex flex-col h-28 max-w-screen-2xl items-center w-full">
         <div className="mr-4 flex w-full items-center pt-4">
           <Link href="/" className="flex items-center space-x-2 mr-auto">
