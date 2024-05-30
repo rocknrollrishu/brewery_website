@@ -13,6 +13,7 @@ export default function IndexPage() {
           width={1200}
           height={150}
           alt="banner"
+          className="mx-auto"
         />
       </div>
       <HeroSection />
