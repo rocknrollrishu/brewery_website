@@ -2,17 +2,15 @@
 import React from 'react';
 import LandingAlert from '../LandingAlert';
 import NotAccessAlert from './NotAccessAlert';
+import { ACCESS_COOKIES } from '@/lib/contants';
+import Cookies from 'js-cookie';
 
-type Props = {
-  value: null | string | undefined;
-};
-
-const ShowAlert = (props: Props) => {
-  const { value } = props;
+const ShowAlert = () => {
+  const isAccess = Cookies.get(ACCESS_COOKIES);
   return (
     <>
-      {!value ? <LandingAlert /> : null}
-      {value == '0' ? <NotAccessAlert /> : null}
+      {!isAccess ? <LandingAlert /> : null}
+      {isAccess === '0' ? <NotAccessAlert /> : null}
     </>
   );
 };

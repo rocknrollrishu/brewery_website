@@ -29,14 +29,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const cookiesStore = cookies();
-  const isAccess = cookiesStore.get(ACCESS_COOKIES);
-  console.info('first', isAccess);
-
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ShowAlert value={isAccess?.value} />
+        <ShowAlert />
         {children}
       </body>
     </html>
