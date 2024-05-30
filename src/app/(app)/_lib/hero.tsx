@@ -7,14 +7,14 @@ type Props = {};
 
 const HeroSection = (props: Props) => {
   return (
-    <section className="mb-28 pt-10px">
-      <div className=" h-[484px] w-full relative bg-gradient-to-b from-slate-300">
+    <section className="mb-28">
+      <div className="max-w-[1800px] mx-auto h-[484px] w-full relative bg-gradient-to-b from-slate-500">
         <Image
           height={484}
-          width={1200}
-          src={'/brewery_website/assets/hero_image.png'}
+          width={860}
+          src={'/brewery_website/assets/hero_image_2.png'}
           alt="hero image"
-          className="w-full h-full object-cover object-[top_-142px_left_0px] absolute mix-blend-overlay"
+          className="w-full h-full object-fill  aspect-[16/9] absolute mix-blend-overlay"
         />
       </div>
       <div className="p-8 pt-0 mb:mt-[-50px] container">

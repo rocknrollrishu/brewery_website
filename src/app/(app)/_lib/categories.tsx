@@ -16,7 +16,9 @@ type Props = {};
 const CategoriesSection = (props: Props) => {
   return (
     <div className="pb-28 px-8 container mx-auto">
-      <p className="text-xs text-primary font-semibold">Categories</p>
+      <p className="sm:text-base  text-sm text-primary font-semibold">
+        Categories
+      </p>
       <h4 className="text-5xl mb-2 font-semibold">Crafted Excellence</h4>
       <p className="text-[#78716C] text-xl mb-5">
         Discover our wide range of handcrafted beers, each brewed with passion
