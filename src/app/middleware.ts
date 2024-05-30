@@ -4,12 +4,8 @@ import type { NextRequest } from 'next/server';
 
 // This function can be marked `async` if using `await` inside
 export function middleware(request: NextRequest) {
-  console.info(request?.cookies.get(ACCESS_COOKIES)?.value, 'this is value');
-
-  if (
-    !request?.cookies.get(ACCESS_COOKIES)?.value ||
-    request?.cookies.get(ACCESS_COOKIES)?.value == '0'
-  ) {
+  const access_cookies = request?.cookies.get(ACCESS_COOKIES);
+  if (!access_cookies?.value || access_cookies?.value == '0') {
     return NextResponse.redirect(new URL('/', request.url));
   }
 }
