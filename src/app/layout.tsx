@@ -5,6 +5,7 @@ import LandingAlert from '@/components/LandingAlert';
 import { cookies } from 'next/headers';
 import { ACCESS_COOKIES } from '@/lib/contants';
 import NotAccessAlert from '@/components/LandingAlerts/NotAccessAlert';
+import ShowAlert from '@/components/LandingAlerts/ShowAlert';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -35,8 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {!isAccess?.value ? <LandingAlert /> : null}
-        {isAccess?.value == '0' ? <NotAccessAlert /> : null}
+        <ShowAlert value={isAccess?.value} />
         {children}
       </body>
     </html>
