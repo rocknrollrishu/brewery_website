@@ -23,7 +23,7 @@ const currentYear = new Date().getFullYear();
 const LandingAlert = () => {
   const router = useRouter();
   const handleClick = (isTrue: 0 | 1) => {
-    Cookies.set(ACCESS_COOKIES, isTrue);
+    Cookies.set(ACCESS_COOKIES, String(isTrue));
     // if (!isTrue) {
     router.refresh();
     // }
